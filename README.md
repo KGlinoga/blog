@@ -1,6 +1,4 @@
 # Blog Website
-  
-  ![APM](https://img.shields.io/apm/l/Blog Website)
 
   ## Description
   
@@ -21,7 +19,17 @@
   
   ## Usage
   
-  Log In Screen: Sign Up Screen: Blog Entry Screen:
+  Landing Page: 
+  ![1 Landing Page](https://user-images.githubusercontent.com/28368622/183002475-e04529cd-120a-4ab3-9500-b80c3fd49f30.png)
+  
+  Log In Screen: 
+  ![2 Log In or Sign Up](https://user-images.githubusercontent.com/28368622/183002484-496207b2-2733-4a70-aeb1-b29043fb2125.png)
+  
+ Sign up:
+ ![3 Pepper Signing Up](https://user-images.githubusercontent.com/28368622/183002524-61a2ba47-515d-426e-92d8-fffb69b5e762.png)
+ 
+ Blog Entry Screen:
+ ![4 Dash Logged In](https://user-images.githubusercontent.com/28368622/183002543-a2d2d924-eb3d-412d-9bad-d7cf8f57c468.png)
   
   ## Licenses: 
   
