@@ -4,6 +4,7 @@ const newFormHandler = async (event) => {
   const name = document.querySelector('#blog-name').value.trim();
   // const needed_funding = document.querySelector('#blog-funding').value.trim();
   const description = document.querySelector('#blog-entry').value.trim();
+};
 
   // unnecessary funding code
 //   if (name && needed_funding && description) {
