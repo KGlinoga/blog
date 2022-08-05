@@ -1,9 +1,9 @@
 const router = require('express').Router();
-const { join } = require('path');
+// const { join } = require('path');
 const { Blog } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-// URL: 3001/api/
+// URL: 3001/api/blogs/
 router.post('/', withAuth, async (req,res) => {
     try {
         const newBlog = await Blog.create({
@@ -17,7 +17,7 @@ router.post('/', withAuth, async (req,res) => {
     }
 });
 
-// URL: 3001/api/ID NUMBER
+// URL: 3001/api/blogs/ID NUMBER
 router.delete('/:id', withAuth, async (req,res) => {
     try {
         const blogData = await Blog.destroy({
