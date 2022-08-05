@@ -43,6 +43,7 @@ router.post('/login', async (req,res) => {
             req.session.logged_in = true;
 
             res.json({ user: userData, message: 'Yay! You are now logged in!'});
+            
         });
 
     }   catch (err) {
@@ -62,3 +63,5 @@ router.post('/logout', (req,res) => {
 });
 
 module.exports = router;
+
+
